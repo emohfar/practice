@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="کیری" />
+    <item android:title="جغی" />
+    <item android:title="عنتر" />
+    <item android:title="Press">
+    <!--  app:showAsAction="always">  it is used for pulling up some menu  -->
+        <menu>
+            <item android:title="جاکش" />
+            <item android:title="پفیوض" />
+            <item android:title="اوبی" />
+            <item android:title="کس کش" />
+
+        </menu>
+    </item>
+
+</menu>
