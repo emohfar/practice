@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mamad.fara2form.RamadanActivity"
+    android:background="#191e21"
+    android:id="@+id/imageViewLayout">
+
+    <ImageView
+        android:id="@+id/iv_Ramadan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ramadan"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:alpha="0"/>
+    <ImageView
+        android:id="@+id/iv_Ramadan2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ramadan2"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="107dp"
+        android:alpha="0"/>     <!-- visibility is gone so when i click on the firdt image it wont interrupt-->
+</RelativeLayout>

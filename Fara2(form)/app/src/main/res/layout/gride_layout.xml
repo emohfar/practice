@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="3">
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#90ff10"
+        android:layout_columnSpan="2" /> <!--    number of culomn -->
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#1a0f31" />
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#dc721060" />
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#109196"
+        android:layout_rowSpan="2"
+        />
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#f0413b" />
+
+    <view
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#6f10a6" />
+
+    <view
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#efe52f" />
+
+
+</GridLayout>
