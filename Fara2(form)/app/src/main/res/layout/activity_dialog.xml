@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mamad.fara2form.DialogActivity">
+
+    <Button
+        style="@android:style/Widget"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progress Dialog"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:onClick="showProgressDialog"
+        android:layout_marginTop="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btn2"
+        android:layout_alignEnd="@+id/btn2" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="Alert Dialog"
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="showAlertDialog"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Alert Dialog Type 2"
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="showAlertDialog2"
+        android:layout_below="@+id/btn2"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog Type 3"
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="showAlertDialog3"
+        android:layout_below="@+id/btn3"
+        android:layout_alignLeft="@+id/btn3"
+        android:layout_alignStart="@+id/btn3"
+        android:layout_marginTop="32dp" />
+    <Button
+        style="@android:style/Widget"
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Dialog"
+        android:textColorHighlight="#be1b4e"
+        android:textColor="#3269df"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:onClick="showDialog"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/btn4"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

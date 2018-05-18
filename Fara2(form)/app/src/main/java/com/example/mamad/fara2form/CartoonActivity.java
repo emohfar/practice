@@ -40,10 +40,6 @@ public class CartoonActivity extends AppCompatActivity {
     public void animate(View view){
         panda.animate().alpha(1).setDuration(1000);
         panda.animate().translationYBy(50);
-
-
-
-
     }
 
 

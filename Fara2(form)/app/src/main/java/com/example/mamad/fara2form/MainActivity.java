@@ -93,6 +93,56 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+        mediaSubmenu.add("Tic Tac Toe").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,Cross3Activity.class));
+                return false;
+            }
+        });
+        mediaSubmenu.add("Video").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,VideoActivity.class));
+                return false;
+            }
+        });
+        mediaSubmenu.add("Music").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,MusicActivity.class));
+                return false;
+            }
+        });
+        SubMenu listSub = menu.addSubMenu("List view");
+        listSub.add("Simple list").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,SimpleListActivity.class));
+                return false;
+            }
+        });
+        listSub.add("Custom list").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,CustomListActivity.class));
+                return false;
+            }
+        });
+        menu.add("Dialog").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,DialogActivity.class));
+                return false;
+            }
+        });
+        menu.add("Rating Bar").setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                startActivity(new Intent(MainActivity.this,RatingBarActivity.class));
+                return false;
+            }
+        });
         return super.onCreateOptionsMenu(menu);
     }
 }

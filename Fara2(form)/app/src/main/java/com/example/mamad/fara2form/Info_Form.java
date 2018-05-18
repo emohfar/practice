@@ -36,7 +36,7 @@ public class Info_Form implements View.OnClickListener, CompoundButton.OnChecked
     }
 
     private void anime() {
-        checkBox.animate().alpha(1f).translationX(100f).setDuration(2000);
+        checkBox.animate().alpha(1f).translationX(100f).setDuration(1500);
         name_info.animate().alpha(1f).setDuration(2000);
         phn_info.animate().alpha(1f).setDuration(2000);
         email_info.animate().alpha(1f).setDuration(2000);

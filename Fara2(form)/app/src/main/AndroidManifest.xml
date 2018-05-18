@@ -21,7 +21,14 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".RamadanActivity" />
-        <activity android:name=".CartoonActivity"></activity>
+        <activity android:name=".CartoonActivity" />
+        <activity android:name=".Cross3Activity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".SimpleListActivity" />
+        <activity android:name=".CustomListActivity" />
+        <activity android:name=".RatingBarActivity"></activity>
     </application>
 
 </manifest>
